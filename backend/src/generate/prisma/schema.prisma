@@ -29,23 +29,14 @@ model User {
 }
 
 model Analise {
-  id                 String @id @default(uuid())
-  userId             String @map("user_id")
-  user               User   @relation(fields: [userId], references: [id])
-  pesoOvo            Float
-  alturaOvo          Float
-  laguraOvo          Float
-  medidaGemaUm       Float
-  medidaGemaDois     Float
-  alturaGema         Float
-  medidaAlbumenUm    Float
-  medidaAlbumenDois  Float
-  alturaAlbumen      Float
-  pesoGema           Float
-  espessuraCascaUm   Float
-  espessuraCascaDois Float
-  espessuraCascaTres Float
-  pesoCasca          Float
+  id        String   @id @default(uuid())
+  userId    String   @map("user_id")
+  user      User     @relation(fields: [userId], references: [id])
+  nome      String
+  data      DateTime
+  pesoOvo   Float
+  pesoGema  Float
+  pesoCasca Float
 
   @@map("analises")
 }

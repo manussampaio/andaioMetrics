@@ -4,6 +4,8 @@ import { auth } from "./lib/auth.js";
 import { toNodeHandler } from "better-auth/node";
 import { requireAuth } from "./middleware/auth.js";
 import cors from "cors";
+import Router from "./routes/analise.routes.js"; 
+
 
 
 dontenv.config();
@@ -16,6 +18,8 @@ app.use(cors({
   origin: "http://localhost:3000", 
   credentials: true,              // permite envio de cookies de sessão
 }));
+app.use("/api/analises", Router); 
+
 
 app.all("/api/auth/*path", toNodeHandler(auth));
 
@@ -30,12 +34,14 @@ app.get("/", (req, res) => {
   });
 });
 
+
 app.get("/api/me", requireAuth, (req, res) => {
   res.json({
     message: "Bem-vindo ao seu perfil!",
     user: req.user, // Dados vindos do middleware
   });
 });
+
 
 app.listen(PORT, () => {
   console.log(`Servidor em http://localhost:${PORT}`);

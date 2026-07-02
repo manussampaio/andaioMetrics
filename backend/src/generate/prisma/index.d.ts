@@ -2449,92 +2449,43 @@ export namespace Prisma {
 
   export type AnaliseAvgAggregateOutputType = {
     pesoOvo: number | null
-    alturaOvo: number | null
-    laguraOvo: number | null
-    medidaGemaUm: number | null
-    medidaGemaDois: number | null
-    alturaGema: number | null
-    medidaAlbumenUm: number | null
-    medidaAlbumenDois: number | null
-    alturaAlbumen: number | null
     pesoGema: number | null
-    espessuraCascaUm: number | null
-    espessuraCascaDois: number | null
-    espessuraCascaTres: number | null
     pesoCasca: number | null
   }
 
   export type AnaliseSumAggregateOutputType = {
     pesoOvo: number | null
-    alturaOvo: number | null
-    laguraOvo: number | null
-    medidaGemaUm: number | null
-    medidaGemaDois: number | null
-    alturaGema: number | null
-    medidaAlbumenUm: number | null
-    medidaAlbumenDois: number | null
-    alturaAlbumen: number | null
     pesoGema: number | null
-    espessuraCascaUm: number | null
-    espessuraCascaDois: number | null
-    espessuraCascaTres: number | null
     pesoCasca: number | null
   }
 
   export type AnaliseMinAggregateOutputType = {
     id: string | null
     userId: string | null
+    nome: string | null
+    data: Date | null
     pesoOvo: number | null
-    alturaOvo: number | null
-    laguraOvo: number | null
-    medidaGemaUm: number | null
-    medidaGemaDois: number | null
-    alturaGema: number | null
-    medidaAlbumenUm: number | null
-    medidaAlbumenDois: number | null
-    alturaAlbumen: number | null
     pesoGema: number | null
-    espessuraCascaUm: number | null
-    espessuraCascaDois: number | null
-    espessuraCascaTres: number | null
     pesoCasca: number | null
   }
 
   export type AnaliseMaxAggregateOutputType = {
     id: string | null
     userId: string | null
+    nome: string | null
+    data: Date | null
     pesoOvo: number | null
-    alturaOvo: number | null
-    laguraOvo: number | null
-    medidaGemaUm: number | null
-    medidaGemaDois: number | null
-    alturaGema: number | null
-    medidaAlbumenUm: number | null
-    medidaAlbumenDois: number | null
-    alturaAlbumen: number | null
     pesoGema: number | null
-    espessuraCascaUm: number | null
-    espessuraCascaDois: number | null
-    espessuraCascaTres: number | null
     pesoCasca: number | null
   }
 
   export type AnaliseCountAggregateOutputType = {
     id: number
     userId: number
+    nome: number
+    data: number
     pesoOvo: number
-    alturaOvo: number
-    laguraOvo: number
-    medidaGemaUm: number
-    medidaGemaDois: number
-    alturaGema: number
-    medidaAlbumenUm: number
-    medidaAlbumenDois: number
-    alturaAlbumen: number
     pesoGema: number
-    espessuraCascaUm: number
-    espessuraCascaDois: number
-    espessuraCascaTres: number
     pesoCasca: number
     _all: number
   }
@@ -2542,92 +2493,43 @@ export namespace Prisma {
 
   export type AnaliseAvgAggregateInputType = {
     pesoOvo?: true
-    alturaOvo?: true
-    laguraOvo?: true
-    medidaGemaUm?: true
-    medidaGemaDois?: true
-    alturaGema?: true
-    medidaAlbumenUm?: true
-    medidaAlbumenDois?: true
-    alturaAlbumen?: true
     pesoGema?: true
-    espessuraCascaUm?: true
-    espessuraCascaDois?: true
-    espessuraCascaTres?: true
     pesoCasca?: true
   }
 
   export type AnaliseSumAggregateInputType = {
     pesoOvo?: true
-    alturaOvo?: true
-    laguraOvo?: true
-    medidaGemaUm?: true
-    medidaGemaDois?: true
-    alturaGema?: true
-    medidaAlbumenUm?: true
-    medidaAlbumenDois?: true
-    alturaAlbumen?: true
     pesoGema?: true
-    espessuraCascaUm?: true
-    espessuraCascaDois?: true
-    espessuraCascaTres?: true
     pesoCasca?: true
   }
 
   export type AnaliseMinAggregateInputType = {
     id?: true
     userId?: true
+    nome?: true
+    data?: true
     pesoOvo?: true
-    alturaOvo?: true
-    laguraOvo?: true
-    medidaGemaUm?: true
-    medidaGemaDois?: true
-    alturaGema?: true
-    medidaAlbumenUm?: true
-    medidaAlbumenDois?: true
-    alturaAlbumen?: true
     pesoGema?: true
-    espessuraCascaUm?: true
-    espessuraCascaDois?: true
-    espessuraCascaTres?: true
     pesoCasca?: true
   }
 
   export type AnaliseMaxAggregateInputType = {
     id?: true
     userId?: true
+    nome?: true
+    data?: true
     pesoOvo?: true
-    alturaOvo?: true
-    laguraOvo?: true
-    medidaGemaUm?: true
-    medidaGemaDois?: true
-    alturaGema?: true
-    medidaAlbumenUm?: true
-    medidaAlbumenDois?: true
-    alturaAlbumen?: true
     pesoGema?: true
-    espessuraCascaUm?: true
-    espessuraCascaDois?: true
-    espessuraCascaTres?: true
     pesoCasca?: true
   }
 
   export type AnaliseCountAggregateInputType = {
     id?: true
     userId?: true
+    nome?: true
+    data?: true
     pesoOvo?: true
-    alturaOvo?: true
-    laguraOvo?: true
-    medidaGemaUm?: true
-    medidaGemaDois?: true
-    alturaGema?: true
-    medidaAlbumenUm?: true
-    medidaAlbumenDois?: true
-    alturaAlbumen?: true
     pesoGema?: true
-    espessuraCascaUm?: true
-    espessuraCascaDois?: true
-    espessuraCascaTres?: true
     pesoCasca?: true
     _all?: true
   }
@@ -2721,19 +2623,10 @@ export namespace Prisma {
   export type AnaliseGroupByOutputType = {
     id: string
     userId: string
+    nome: string
+    data: Date
     pesoOvo: number
-    alturaOvo: number
-    laguraOvo: number
-    medidaGemaUm: number
-    medidaGemaDois: number
-    alturaGema: number
-    medidaAlbumenUm: number
-    medidaAlbumenDois: number
-    alturaAlbumen: number
     pesoGema: number
-    espessuraCascaUm: number
-    espessuraCascaDois: number
-    espessuraCascaTres: number
     pesoCasca: number
     _count: AnaliseCountAggregateOutputType | null
     _avg: AnaliseAvgAggregateOutputType | null
@@ -2759,19 +2652,10 @@ export namespace Prisma {
   export type AnaliseSelect<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
     id?: boolean
     userId?: boolean
+    nome?: boolean
+    data?: boolean
     pesoOvo?: boolean
-    alturaOvo?: boolean
-    laguraOvo?: boolean
-    medidaGemaUm?: boolean
-    medidaGemaDois?: boolean
-    alturaGema?: boolean
-    medidaAlbumenUm?: boolean
-    medidaAlbumenDois?: boolean
-    alturaAlbumen?: boolean
     pesoGema?: boolean
-    espessuraCascaUm?: boolean
-    espessuraCascaDois?: boolean
-    espessuraCascaTres?: boolean
     pesoCasca?: boolean
     user?: boolean | UserDefaultArgs<ExtArgs>
   }, ExtArgs["result"]["analise"]>
@@ -2779,19 +2663,10 @@ export namespace Prisma {
   export type AnaliseSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
     id?: boolean
     userId?: boolean
+    nome?: boolean
+    data?: boolean
     pesoOvo?: boolean
-    alturaOvo?: boolean
-    laguraOvo?: boolean
-    medidaGemaUm?: boolean
-    medidaGemaDois?: boolean
-    alturaGema?: boolean
-    medidaAlbumenUm?: boolean
-    medidaAlbumenDois?: boolean
-    alturaAlbumen?: boolean
     pesoGema?: boolean
-    espessuraCascaUm?: boolean
-    espessuraCascaDois?: boolean
-    espessuraCascaTres?: boolean
     pesoCasca?: boolean
     user?: boolean | UserDefaultArgs<ExtArgs>
   }, ExtArgs["result"]["analise"]>
@@ -2799,19 +2674,10 @@ export namespace Prisma {
   export type AnaliseSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
     id?: boolean
     userId?: boolean
+    nome?: boolean
+    data?: boolean
     pesoOvo?: boolean
-    alturaOvo?: boolean
-    laguraOvo?: boolean
-    medidaGemaUm?: boolean
-    medidaGemaDois?: boolean
-    alturaGema?: boolean
-    medidaAlbumenUm?: boolean
-    medidaAlbumenDois?: boolean
-    alturaAlbumen?: boolean
     pesoGema?: boolean
-    espessuraCascaUm?: boolean
-    espessuraCascaDois?: boolean
-    espessuraCascaTres?: boolean
     pesoCasca?: boolean
     user?: boolean | UserDefaultArgs<ExtArgs>
   }, ExtArgs["result"]["analise"]>
@@ -2819,23 +2685,14 @@ export namespace Prisma {
   export type AnaliseSelectScalar = {
     id?: boolean
     userId?: boolean
+    nome?: boolean
+    data?: boolean
     pesoOvo?: boolean
-    alturaOvo?: boolean
-    laguraOvo?: boolean
-    medidaGemaUm?: boolean
-    medidaGemaDois?: boolean
-    alturaGema?: boolean
-    medidaAlbumenUm?: boolean
-    medidaAlbumenDois?: boolean
-    alturaAlbumen?: boolean
     pesoGema?: boolean
-    espessuraCascaUm?: boolean
-    espessuraCascaDois?: boolean
-    espessuraCascaTres?: boolean
     pesoCasca?: boolean
   }
 
-  export type AnaliseOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"id" | "userId" | "pesoOvo" | "alturaOvo" | "laguraOvo" | "medidaGemaUm" | "medidaGemaDois" | "alturaGema" | "medidaAlbumenUm" | "medidaAlbumenDois" | "alturaAlbumen" | "pesoGema" | "espessuraCascaUm" | "espessuraCascaDois" | "espessuraCascaTres" | "pesoCasca", ExtArgs["result"]["analise"]>
+  export type AnaliseOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"id" | "userId" | "nome" | "data" | "pesoOvo" | "pesoGema" | "pesoCasca", ExtArgs["result"]["analise"]>
   export type AnaliseInclude<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
     user?: boolean | UserDefaultArgs<ExtArgs>
   }
@@ -2854,19 +2711,10 @@ export namespace Prisma {
     scalars: $Extensions.GetPayloadResult<{
       id: string
       userId: string
+      nome: string
+      data: Date
       pesoOvo: number
-      alturaOvo: number
-      laguraOvo: number
-      medidaGemaUm: number
-      medidaGemaDois: number
-      alturaGema: number
-      medidaAlbumenUm: number
-      medidaAlbumenDois: number
-      alturaAlbumen: number
       pesoGema: number
-      espessuraCascaUm: number
-      espessuraCascaDois: number
-      espessuraCascaTres: number
       pesoCasca: number
     }, ExtArgs["result"]["analise"]>
     composites: {}
@@ -3294,19 +3142,10 @@ export namespace Prisma {
   interface AnaliseFieldRefs {
     readonly id: FieldRef<"Analise", 'String'>
     readonly userId: FieldRef<"Analise", 'String'>
+    readonly nome: FieldRef<"Analise", 'String'>
+    readonly data: FieldRef<"Analise", 'DateTime'>
     readonly pesoOvo: FieldRef<"Analise", 'Float'>
-    readonly alturaOvo: FieldRef<"Analise", 'Float'>
-    readonly laguraOvo: FieldRef<"Analise", 'Float'>
-    readonly medidaGemaUm: FieldRef<"Analise", 'Float'>
-    readonly medidaGemaDois: FieldRef<"Analise", 'Float'>
-    readonly alturaGema: FieldRef<"Analise", 'Float'>
-    readonly medidaAlbumenUm: FieldRef<"Analise", 'Float'>
-    readonly medidaAlbumenDois: FieldRef<"Analise", 'Float'>
-    readonly alturaAlbumen: FieldRef<"Analise", 'Float'>
     readonly pesoGema: FieldRef<"Analise", 'Float'>
-    readonly espessuraCascaUm: FieldRef<"Analise", 'Float'>
-    readonly espessuraCascaDois: FieldRef<"Analise", 'Float'>
-    readonly espessuraCascaTres: FieldRef<"Analise", 'Float'>
     readonly pesoCasca: FieldRef<"Analise", 'Float'>
   }
     
@@ -7039,19 +6878,10 @@ export namespace Prisma {
   export const AnaliseScalarFieldEnum: {
     id: 'id',
     userId: 'userId',
+    nome: 'nome',
+    data: 'data',
     pesoOvo: 'pesoOvo',
-    alturaOvo: 'alturaOvo',
-    laguraOvo: 'laguraOvo',
-    medidaGemaUm: 'medidaGemaUm',
-    medidaGemaDois: 'medidaGemaDois',
-    alturaGema: 'alturaGema',
-    medidaAlbumenUm: 'medidaAlbumenUm',
-    medidaAlbumenDois: 'medidaAlbumenDois',
-    alturaAlbumen: 'alturaAlbumen',
     pesoGema: 'pesoGema',
-    espessuraCascaUm: 'espessuraCascaUm',
-    espessuraCascaDois: 'espessuraCascaDois',
-    espessuraCascaTres: 'espessuraCascaTres',
     pesoCasca: 'pesoCasca'
   };
 
@@ -7275,19 +7105,10 @@ export namespace Prisma {
     NOT?: AnaliseWhereInput | AnaliseWhereInput[]
     id?: StringFilter<"Analise"> | string
     userId?: StringFilter<"Analise"> | string
+    nome?: StringFilter<"Analise"> | string
+    data?: DateTimeFilter<"Analise"> | Date | string
     pesoOvo?: FloatFilter<"Analise"> | number
-    alturaOvo?: FloatFilter<"Analise"> | number
-    laguraOvo?: FloatFilter<"Analise"> | number
-    medidaGemaUm?: FloatFilter<"Analise"> | number
-    medidaGemaDois?: FloatFilter<"Analise"> | number
-    alturaGema?: FloatFilter<"Analise"> | number
-    medidaAlbumenUm?: FloatFilter<"Analise"> | number
-    medidaAlbumenDois?: FloatFilter<"Analise"> | number
-    alturaAlbumen?: FloatFilter<"Analise"> | number
     pesoGema?: FloatFilter<"Analise"> | number
-    espessuraCascaUm?: FloatFilter<"Analise"> | number
-    espessuraCascaDois?: FloatFilter<"Analise"> | number
-    espessuraCascaTres?: FloatFilter<"Analise"> | number
     pesoCasca?: FloatFilter<"Analise"> | number
     user?: XOR<UserScalarRelationFilter, UserWhereInput>
   }
@@ -7295,19 +7116,10 @@ export namespace Prisma {
   export type AnaliseOrderByWithRelationInput = {
     id?: SortOrder
     userId?: SortOrder
+    nome?: SortOrder
+    data?: SortOrder
     pesoOvo?: SortOrder
-    alturaOvo?: SortOrder
-    laguraOvo?: SortOrder
-    medidaGemaUm?: SortOrder
-    medidaGemaDois?: SortOrder
-    alturaGema?: SortOrder
-    medidaAlbumenUm?: SortOrder
-    medidaAlbumenDois?: SortOrder
-    alturaAlbumen?: SortOrder
     pesoGema?: SortOrder
-    espessuraCascaUm?: SortOrder
-    espessuraCascaDois?: SortOrder
-    espessuraCascaTres?: SortOrder
     pesoCasca?: SortOrder
     user?: UserOrderByWithRelationInput
   }
@@ -7318,19 +7130,10 @@ export namespace Prisma {
     OR?: AnaliseWhereInput[]
     NOT?: AnaliseWhereInput | AnaliseWhereInput[]
     userId?: StringFilter<"Analise"> | string
+    nome?: StringFilter<"Analise"> | string
+    data?: DateTimeFilter<"Analise"> | Date | string
     pesoOvo?: FloatFilter<"Analise"> | number
-    alturaOvo?: FloatFilter<"Analise"> | number
-    laguraOvo?: FloatFilter<"Analise"> | number
-    medidaGemaUm?: FloatFilter<"Analise"> | number
-    medidaGemaDois?: FloatFilter<"Analise"> | number
-    alturaGema?: FloatFilter<"Analise"> | number
-    medidaAlbumenUm?: FloatFilter<"Analise"> | number
-    medidaAlbumenDois?: FloatFilter<"Analise"> | number
-    alturaAlbumen?: FloatFilter<"Analise"> | number
     pesoGema?: FloatFilter<"Analise"> | number
-    espessuraCascaUm?: FloatFilter<"Analise"> | number
-    espessuraCascaDois?: FloatFilter<"Analise"> | number
-    espessuraCascaTres?: FloatFilter<"Analise"> | number
     pesoCasca?: FloatFilter<"Analise"> | number
     user?: XOR<UserScalarRelationFilter, UserWhereInput>
   }, "id">
@@ -7338,19 +7141,10 @@ export namespace Prisma {
   export type AnaliseOrderByWithAggregationInput = {
     id?: SortOrder
     userId?: SortOrder
+    nome?: SortOrder
+    data?: SortOrder
     pesoOvo?: SortOrder
-    alturaOvo?: SortOrder
-    laguraOvo?: SortOrder
-    medidaGemaUm?: SortOrder
-    medidaGemaDois?: SortOrder
-    alturaGema?: SortOrder
-    medidaAlbumenUm?: SortOrder
-    medidaAlbumenDois?: SortOrder
-    alturaAlbumen?: SortOrder
     pesoGema?: SortOrder
-    espessuraCascaUm?: SortOrder
-    espessuraCascaDois?: SortOrder
-    espessuraCascaTres?: SortOrder
     pesoCasca?: SortOrder
     _count?: AnaliseCountOrderByAggregateInput
     _avg?: AnaliseAvgOrderByAggregateInput
@@ -7365,19 +7159,10 @@ export namespace Prisma {
     NOT?: AnaliseScalarWhereWithAggregatesInput | AnaliseScalarWhereWithAggregatesInput[]
     id?: StringWithAggregatesFilter<"Analise"> | string
     userId?: StringWithAggregatesFilter<"Analise"> | string
+    nome?: StringWithAggregatesFilter<"Analise"> | string
+    data?: DateTimeWithAggregatesFilter<"Analise"> | Date | string
     pesoOvo?: FloatWithAggregatesFilter<"Analise"> | number
-    alturaOvo?: FloatWithAggregatesFilter<"Analise"> | number
-    laguraOvo?: FloatWithAggregatesFilter<"Analise"> | number
-    medidaGemaUm?: FloatWithAggregatesFilter<"Analise"> | number
-    medidaGemaDois?: FloatWithAggregatesFilter<"Analise"> | number
-    alturaGema?: FloatWithAggregatesFilter<"Analise"> | number
-    medidaAlbumenUm?: FloatWithAggregatesFilter<"Analise"> | number
-    medidaAlbumenDois?: FloatWithAggregatesFilter<"Analise"> | number
-    alturaAlbumen?: FloatWithAggregatesFilter<"Analise"> | number
     pesoGema?: FloatWithAggregatesFilter<"Analise"> | number
-    espessuraCascaUm?: FloatWithAggregatesFilter<"Analise"> | number
-    espessuraCascaDois?: FloatWithAggregatesFilter<"Analise"> | number
-    espessuraCascaTres?: FloatWithAggregatesFilter<"Analise"> | number
     pesoCasca?: FloatWithAggregatesFilter<"Analise"> | number
   }
 
@@ -7687,19 +7472,10 @@ export namespace Prisma {
 
   export type AnaliseCreateInput = {
     id?: string
+    nome: string
+    data: Date | string
     pesoOvo: number
-    alturaOvo: number
-    laguraOvo: number
-    medidaGemaUm: number
-    medidaGemaDois: number
-    alturaGema: number
-    medidaAlbumenUm: number
-    medidaAlbumenDois: number
-    alturaAlbumen: number
     pesoGema: number
-    espessuraCascaUm: number
-    espessuraCascaDois: number
-    espessuraCascaTres: number
     pesoCasca: number
     user: UserCreateNestedOneWithoutAnalisesInput
   }
@@ -7707,37 +7483,19 @@ export namespace Prisma {
   export type AnaliseUncheckedCreateInput = {
     id?: string
     userId: string
+    nome: string
+    data: Date | string
     pesoOvo: number
-    alturaOvo: number
-    laguraOvo: number
-    medidaGemaUm: number
-    medidaGemaDois: number
-    alturaGema: number
-    medidaAlbumenUm: number
-    medidaAlbumenDois: number
-    alturaAlbumen: number
     pesoGema: number
-    espessuraCascaUm: number
-    espessuraCascaDois: number
-    espessuraCascaTres: number
     pesoCasca: number
   }
 
   export type AnaliseUpdateInput = {
     id?: StringFieldUpdateOperationsInput | string
+    nome?: StringFieldUpdateOperationsInput | string
+    data?: DateTimeFieldUpdateOperationsInput | Date | string
     pesoOvo?: FloatFieldUpdateOperationsInput | number
-    alturaOvo?: FloatFieldUpdateOperationsInput | number
-    laguraOvo?: FloatFieldUpdateOperationsInput | number
-    medidaGemaUm?: FloatFieldUpdateOperationsInput | number
-    medidaGemaDois?: FloatFieldUpdateOperationsInput | number
-    alturaGema?: FloatFieldUpdateOperationsInput | number
-    medidaAlbumenUm?: FloatFieldUpdateOperationsInput | number
-    medidaAlbumenDois?: FloatFieldUpdateOperationsInput | number
-    alturaAlbumen?: FloatFieldUpdateOperationsInput | number
     pesoGema?: FloatFieldUpdateOperationsInput | number
-    espessuraCascaUm?: FloatFieldUpdateOperationsInput | number
-    espessuraCascaDois?: FloatFieldUpdateOperationsInput | number
-    espessuraCascaTres?: FloatFieldUpdateOperationsInput | number
     pesoCasca?: FloatFieldUpdateOperationsInput | number
     user?: UserUpdateOneRequiredWithoutAnalisesNestedInput
   }
@@ -7745,75 +7503,39 @@ export namespace Prisma {
   export type AnaliseUncheckedUpdateInput = {
     id?: StringFieldUpdateOperationsInput | string
     userId?: StringFieldUpdateOperationsInput | string
+    nome?: StringFieldUpdateOperationsInput | string
+    data?: DateTimeFieldUpdateOperationsInput | Date | string
     pesoOvo?: FloatFieldUpdateOperationsInput | number
-    alturaOvo?: FloatFieldUpdateOperationsInput | number
-    laguraOvo?: FloatFieldUpdateOperationsInput | number
-    medidaGemaUm?: FloatFieldUpdateOperationsInput | number
-    medidaGemaDois?: FloatFieldUpdateOperationsInput | number
-    alturaGema?: FloatFieldUpdateOperationsInput | number
-    medidaAlbumenUm?: FloatFieldUpdateOperationsInput | number
-    medidaAlbumenDois?: FloatFieldUpdateOperationsInput | number
-    alturaAlbumen?: FloatFieldUpdateOperationsInput | number
     pesoGema?: FloatFieldUpdateOperationsInput | number
-    espessuraCascaUm?: FloatFieldUpdateOperationsInput | number
-    espessuraCascaDois?: FloatFieldUpdateOperationsInput | number
-    espessuraCascaTres?: FloatFieldUpdateOperationsInput | number
     pesoCasca?: FloatFieldUpdateOperationsInput | number
   }
 
   export type AnaliseCreateManyInput = {
     id?: string
     userId: string
+    nome: string
+    data: Date | string
     pesoOvo: number
-    alturaOvo: number
-    laguraOvo: number
-    medidaGemaUm: number
-    medidaGemaDois: number
-    alturaGema: number
-    medidaAlbumenUm: number
-    medidaAlbumenDois: number
-    alturaAlbumen: number
     pesoGema: number
-    espessuraCascaUm: number
-    espessuraCascaDois: number
-    espessuraCascaTres: number
     pesoCasca: number
   }
 
   export type AnaliseUpdateManyMutationInput = {
     id?: StringFieldUpdateOperationsInput | string
+    nome?: StringFieldUpdateOperationsInput | string
+    data?: DateTimeFieldUpdateOperationsInput | Date | string
     pesoOvo?: FloatFieldUpdateOperationsInput | number
-    alturaOvo?: FloatFieldUpdateOperationsInput | number
-    laguraOvo?: FloatFieldUpdateOperationsInput | number
-    medidaGemaUm?: FloatFieldUpdateOperationsInput | number
-    medidaGemaDois?: FloatFieldUpdateOperationsInput | number
-    alturaGema?: FloatFieldUpdateOperationsInput | number
-    medidaAlbumenUm?: FloatFieldUpdateOperationsInput | number
-    medidaAlbumenDois?: FloatFieldUpdateOperationsInput | number
-    alturaAlbumen?: FloatFieldUpdateOperationsInput | number
     pesoGema?: FloatFieldUpdateOperationsInput | number
-    espessuraCascaUm?: FloatFieldUpdateOperationsInput | number
-    espessuraCascaDois?: FloatFieldUpdateOperationsInput | number
-    espessuraCascaTres?: FloatFieldUpdateOperationsInput | number
     pesoCasca?: FloatFieldUpdateOperationsInput | number
   }
 
   export type AnaliseUncheckedUpdateManyInput = {
     id?: StringFieldUpdateOperationsInput | string
     userId?: StringFieldUpdateOperationsInput | string
+    nome?: StringFieldUpdateOperationsInput | string
+    data?: DateTimeFieldUpdateOperationsInput | Date | string
     pesoOvo?: FloatFieldUpdateOperationsInput | number
-    alturaOvo?: FloatFieldUpdateOperationsInput | number
-    laguraOvo?: FloatFieldUpdateOperationsInput | number
-    medidaGemaUm?: FloatFieldUpdateOperationsInput | number
-    medidaGemaDois?: FloatFieldUpdateOperationsInput | number
-    alturaGema?: FloatFieldUpdateOperationsInput | number
-    medidaAlbumenUm?: FloatFieldUpdateOperationsInput | number
-    medidaAlbumenDois?: FloatFieldUpdateOperationsInput | number
-    alturaAlbumen?: FloatFieldUpdateOperationsInput | number
     pesoGema?: FloatFieldUpdateOperationsInput | number
-    espessuraCascaUm?: FloatFieldUpdateOperationsInput | number
-    espessuraCascaDois?: FloatFieldUpdateOperationsInput | number
-    espessuraCascaTres?: FloatFieldUpdateOperationsInput | number
     pesoCasca?: FloatFieldUpdateOperationsInput | number
   }
 
@@ -8255,91 +7977,42 @@ export namespace Prisma {
   export type AnaliseCountOrderByAggregateInput = {
     id?: SortOrder
     userId?: SortOrder
+    nome?: SortOrder
+    data?: SortOrder
     pesoOvo?: SortOrder
-    alturaOvo?: SortOrder
-    laguraOvo?: SortOrder
-    medidaGemaUm?: SortOrder
-    medidaGemaDois?: SortOrder
-    alturaGema?: SortOrder
-    medidaAlbumenUm?: SortOrder
-    medidaAlbumenDois?: SortOrder
-    alturaAlbumen?: SortOrder
     pesoGema?: SortOrder
-    espessuraCascaUm?: SortOrder
-    espessuraCascaDois?: SortOrder
-    espessuraCascaTres?: SortOrder
     pesoCasca?: SortOrder
   }
 
   export type AnaliseAvgOrderByAggregateInput = {
     pesoOvo?: SortOrder
-    alturaOvo?: SortOrder
-    laguraOvo?: SortOrder
-    medidaGemaUm?: SortOrder
-    medidaGemaDois?: SortOrder
-    alturaGema?: SortOrder
-    medidaAlbumenUm?: SortOrder
-    medidaAlbumenDois?: SortOrder
-    alturaAlbumen?: SortOrder
     pesoGema?: SortOrder
-    espessuraCascaUm?: SortOrder
-    espessuraCascaDois?: SortOrder
-    espessuraCascaTres?: SortOrder
     pesoCasca?: SortOrder
   }
 
   export type AnaliseMaxOrderByAggregateInput = {
     id?: SortOrder
     userId?: SortOrder
+    nome?: SortOrder
+    data?: SortOrder
     pesoOvo?: SortOrder
-    alturaOvo?: SortOrder
-    laguraOvo?: SortOrder
-    medidaGemaUm?: SortOrder
-    medidaGemaDois?: SortOrder
-    alturaGema?: SortOrder
-    medidaAlbumenUm?: SortOrder
-    medidaAlbumenDois?: SortOrder
-    alturaAlbumen?: SortOrder
     pesoGema?: SortOrder
-    espessuraCascaUm?: SortOrder
-    espessuraCascaDois?: SortOrder
-    espessuraCascaTres?: SortOrder
     pesoCasca?: SortOrder
   }
 
   export type AnaliseMinOrderByAggregateInput = {
     id?: SortOrder
     userId?: SortOrder
+    nome?: SortOrder
+    data?: SortOrder
     pesoOvo?: SortOrder
-    alturaOvo?: SortOrder
-    laguraOvo?: SortOrder
-    medidaGemaUm?: SortOrder
-    medidaGemaDois?: SortOrder
-    alturaGema?: SortOrder
-    medidaAlbumenUm?: SortOrder
-    medidaAlbumenDois?: SortOrder
-    alturaAlbumen?: SortOrder
     pesoGema?: SortOrder
-    espessuraCascaUm?: SortOrder
-    espessuraCascaDois?: SortOrder
-    espessuraCascaTres?: SortOrder
     pesoCasca?: SortOrder
   }
 
   export type AnaliseSumOrderByAggregateInput = {
     pesoOvo?: SortOrder
-    alturaOvo?: SortOrder
-    laguraOvo?: SortOrder
-    medidaGemaUm?: SortOrder
-    medidaGemaDois?: SortOrder
-    alturaGema?: SortOrder
-    medidaAlbumenUm?: SortOrder
-    medidaAlbumenDois?: SortOrder
-    alturaAlbumen?: SortOrder
     pesoGema?: SortOrder
-    espessuraCascaUm?: SortOrder
-    espessuraCascaDois?: SortOrder
-    espessuraCascaTres?: SortOrder
     pesoCasca?: SortOrder
   }
 
@@ -8864,37 +8537,19 @@ export namespace Prisma {
 
   export type AnaliseCreateWithoutUserInput = {
     id?: string
+    nome: string
+    data: Date | string
     pesoOvo: number
-    alturaOvo: number
-    laguraOvo: number
-    medidaGemaUm: number
-    medidaGemaDois: number
-    alturaGema: number
-    medidaAlbumenUm: number
-    medidaAlbumenDois: number
-    alturaAlbumen: number
     pesoGema: number
-    espessuraCascaUm: number
-    espessuraCascaDois: number
-    espessuraCascaTres: number
     pesoCasca: number
   }
 
   export type AnaliseUncheckedCreateWithoutUserInput = {
     id?: string
+    nome: string
+    data: Date | string
     pesoOvo: number
-    alturaOvo: number
-    laguraOvo: number
-    medidaGemaUm: number
-    medidaGemaDois: number
-    alturaGema: number
-    medidaAlbumenUm: number
-    medidaAlbumenDois: number
-    alturaAlbumen: number
     pesoGema: number
-    espessuraCascaUm: number
-    espessuraCascaDois: number
-    espessuraCascaTres: number
     pesoCasca: number
   }
 
@@ -9000,19 +8655,10 @@ export namespace Prisma {
     NOT?: AnaliseScalarWhereInput | AnaliseScalarWhereInput[]
     id?: StringFilter<"Analise"> | string
     userId?: StringFilter<"Analise"> | string
+    nome?: StringFilter<"Analise"> | string
+    data?: DateTimeFilter<"Analise"> | Date | string
     pesoOvo?: FloatFilter<"Analise"> | number
-    alturaOvo?: FloatFilter<"Analise"> | number
-    laguraOvo?: FloatFilter<"Analise"> | number
-    medidaGemaUm?: FloatFilter<"Analise"> | number
-    medidaGemaDois?: FloatFilter<"Analise"> | number
-    alturaGema?: FloatFilter<"Analise"> | number
-    medidaAlbumenUm?: FloatFilter<"Analise"> | number
-    medidaAlbumenDois?: FloatFilter<"Analise"> | number
-    alturaAlbumen?: FloatFilter<"Analise"> | number
     pesoGema?: FloatFilter<"Analise"> | number
-    espessuraCascaUm?: FloatFilter<"Analise"> | number
-    espessuraCascaDois?: FloatFilter<"Analise"> | number
-    espessuraCascaTres?: FloatFilter<"Analise"> | number
     pesoCasca?: FloatFilter<"Analise"> | number
   }
 
@@ -9275,19 +8921,10 @@ export namespace Prisma {
 
   export type AnaliseCreateManyUserInput = {
     id?: string
+    nome: string
+    data: Date | string
     pesoOvo: number
-    alturaOvo: number
-    laguraOvo: number
-    medidaGemaUm: number
-    medidaGemaDois: number
-    alturaGema: number
-    medidaAlbumenUm: number
-    medidaAlbumenDois: number
-    alturaAlbumen: number
     pesoGema: number
-    espessuraCascaUm: number
-    espessuraCascaDois: number
-    espessuraCascaTres: number
     pesoCasca: number
   }
 
@@ -9318,55 +8955,28 @@ export namespace Prisma {
 
   export type AnaliseUpdateWithoutUserInput = {
     id?: StringFieldUpdateOperationsInput | string
+    nome?: StringFieldUpdateOperationsInput | string
+    data?: DateTimeFieldUpdateOperationsInput | Date | string
     pesoOvo?: FloatFieldUpdateOperationsInput | number
-    alturaOvo?: FloatFieldUpdateOperationsInput | number
-    laguraOvo?: FloatFieldUpdateOperationsInput | number
-    medidaGemaUm?: FloatFieldUpdateOperationsInput | number
-    medidaGemaDois?: FloatFieldUpdateOperationsInput | number
-    alturaGema?: FloatFieldUpdateOperationsInput | number
-    medidaAlbumenUm?: FloatFieldUpdateOperationsInput | number
-    medidaAlbumenDois?: FloatFieldUpdateOperationsInput | number
-    alturaAlbumen?: FloatFieldUpdateOperationsInput | number
     pesoGema?: FloatFieldUpdateOperationsInput | number
-    espessuraCascaUm?: FloatFieldUpdateOperationsInput | number
-    espessuraCascaDois?: FloatFieldUpdateOperationsInput | number
-    espessuraCascaTres?: FloatFieldUpdateOperationsInput | number
     pesoCasca?: FloatFieldUpdateOperationsInput | number
   }
 
   export type AnaliseUncheckedUpdateWithoutUserInput = {
     id?: StringFieldUpdateOperationsInput | string
+    nome?: StringFieldUpdateOperationsInput | string
+    data?: DateTimeFieldUpdateOperationsInput | Date | string
     pesoOvo?: FloatFieldUpdateOperationsInput | number
-    alturaOvo?: FloatFieldUpdateOperationsInput | number
-    laguraOvo?: FloatFieldUpdateOperationsInput | number
-    medidaGemaUm?: FloatFieldUpdateOperationsInput | number
-    medidaGemaDois?: FloatFieldUpdateOperationsInput | number
-    alturaGema?: FloatFieldUpdateOperationsInput | number
-    medidaAlbumenUm?: FloatFieldUpdateOperationsInput | number
-    medidaAlbumenDois?: FloatFieldUpdateOperationsInput | number
-    alturaAlbumen?: FloatFieldUpdateOperationsInput | number
     pesoGema?: FloatFieldUpdateOperationsInput | number
-    espessuraCascaUm?: FloatFieldUpdateOperationsInput | number
-    espessuraCascaDois?: FloatFieldUpdateOperationsInput | number
-    espessuraCascaTres?: FloatFieldUpdateOperationsInput | number
     pesoCasca?: FloatFieldUpdateOperationsInput | number
   }
 
   export type AnaliseUncheckedUpdateManyWithoutUserInput = {
     id?: StringFieldUpdateOperationsInput | string
+    nome?: StringFieldUpdateOperationsInput | string
+    data?: DateTimeFieldUpdateOperationsInput | Date | string
     pesoOvo?: FloatFieldUpdateOperationsInput | number
-    alturaOvo?: FloatFieldUpdateOperationsInput | number
-    laguraOvo?: FloatFieldUpdateOperationsInput | number
-    medidaGemaUm?: FloatFieldUpdateOperationsInput | number
-    medidaGemaDois?: FloatFieldUpdateOperationsInput | number
-    alturaGema?: FloatFieldUpdateOperationsInput | number
-    medidaAlbumenUm?: FloatFieldUpdateOperationsInput | number
-    medidaAlbumenDois?: FloatFieldUpdateOperationsInput | number
-    alturaAlbumen?: FloatFieldUpdateOperationsInput | number
     pesoGema?: FloatFieldUpdateOperationsInput | number
-    espessuraCascaUm?: FloatFieldUpdateOperationsInput | number
-    espessuraCascaDois?: FloatFieldUpdateOperationsInput | number
-    espessuraCascaTres?: FloatFieldUpdateOperationsInput | number
     pesoCasca?: FloatFieldUpdateOperationsInput | number
   }
 

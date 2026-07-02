@@ -133,19 +133,10 @@ exports.Prisma.UserScalarFieldEnum = {
 exports.Prisma.AnaliseScalarFieldEnum = {
   id: 'id',
   userId: 'userId',
+  nome: 'nome',
+  data: 'data',
   pesoOvo: 'pesoOvo',
-  alturaOvo: 'alturaOvo',
-  laguraOvo: 'laguraOvo',
-  medidaGemaUm: 'medidaGemaUm',
-  medidaGemaDois: 'medidaGemaDois',
-  alturaGema: 'alturaGema',
-  medidaAlbumenUm: 'medidaAlbumenUm',
-  medidaAlbumenDois: 'medidaAlbumenDois',
-  alturaAlbumen: 'alturaAlbumen',
   pesoGema: 'pesoGema',
-  espessuraCascaUm: 'espessuraCascaUm',
-  espessuraCascaDois: 'espessuraCascaDois',
-  espessuraCascaTres: 'espessuraCascaTres',
   pesoCasca: 'pesoCasca'
 };
 
